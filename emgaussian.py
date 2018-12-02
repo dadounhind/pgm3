@@ -157,6 +157,6 @@ class EMGaussian():
             j = int(labels[i])
 
             log_lik -= (xi - self.mu[j]).T.dot(inv_sigmas[j]).dot(xi - self.mu[j]) / 2
-            log_lik -= (self.d * math.log(2 * math.pi) + math.log(math.sqrt(det_sigmas[j]))) / 2
+            log_lik -= (math.log(2 * math.pi) + math.log(det_sigmas[j])) / 2
             log_lik +=  math.log(self.pi[j])
         return -log_lik
