@@ -2,6 +2,9 @@
 MVA 
 
 # Dependecies 
+
 **Numpy**
+
 **Matplotlib**
+
 **Pandas**
