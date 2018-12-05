@@ -1,1 +1,7 @@
-# pgm3
+# Probabilistic graphical models
+MVA 
+
+# Dependecies 
+**Numpy**
+**Matplotlib**
+**Pandas**
