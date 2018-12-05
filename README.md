@@ -1,4 +1,4 @@
-# Probabilistic graphical models-Hidden Markov Chains
+# Probabilistic graphical models: Hidden Markov Chains
 MVA 
 
 # Dependecies 
